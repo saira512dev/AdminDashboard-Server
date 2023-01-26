@@ -9,20 +9,27 @@ import clientRoutes from "./routes/client.js";
 import generalRoutes from "./routes/general.js";
 import salesRoutes from "./routes/sales.js";
 import managementRoutes from "./routes/management.js";
+import connectDB from "./config/database.js";
 
 // CONFIGURATION
-dotenv.configure()
+dotenv.config({ path: "./config/.env" });
 const app = express()
 app.use(express.json())
 app.use(helmet())
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin"}))
 app.use(morgan("common"))
-app.use(bodyparser.json())
+app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors())
+
+connectDB();
 
 // ROUTES
 app.use("/client", clientRoutes)
 app.use("/general", generalRoutes)
 app.use("/sales", salesRoutes)
 app.use("/management", managementRoutes)
+
+app.listen(process.env.PORT, () => {
+    console.log("Server is running, you better catch it!");
+});

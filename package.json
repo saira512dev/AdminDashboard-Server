@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Server side for MERN stack admin dashboard",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Saira",
   "license": "ISC",
