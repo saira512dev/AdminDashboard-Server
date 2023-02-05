@@ -31,5 +31,5 @@ app.use("/sales", salesRoutes)
 app.use("/management", managementRoutes)
 
 app.listen(process.env.PORT, () => {
-    console.log("Server is running, you better catch it!");
+    console.log(`Server is running at port ${process.env.PORT}, you better catch it!`);
 });
