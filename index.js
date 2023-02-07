@@ -11,6 +11,10 @@ import salesRoutes from "./routes/sales.js";
 import managementRoutes from "./routes/management.js";
 import connectDB from "./config/database.js";
 
+//data imports
+import User from "./models/User.js"
+import { dataUser } from "./data/index.js"
+
 // CONFIGURATION
 dotenv.config({ path: "./config/.env" });
 const app = express()
@@ -32,4 +36,8 @@ app.use("/management", managementRoutes)
 
 app.listen(process.env.PORT, () => {
     console.log(`Server is running at port ${process.env.PORT}, you better catch it!`);
+
+    //Only add data once
+    // User.insertMany(dataUser)
 });
+
