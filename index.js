@@ -13,7 +13,10 @@ import connectDB from "./config/database.js";
 
 //data imports
 import User from "./models/User.js"
-import { dataUser } from "./data/index.js"
+import Product from "./models/Product.js"
+import ProductStat from "./models/ProductStat.js"
+
+import { dataUser, dataProduct,dataProductStat} from "./data/index.js"
 
 // CONFIGURATION
 dotenv.config({ path: "./config/.env" });
@@ -38,6 +41,9 @@ app.listen(process.env.PORT, () => {
     console.log(`Server is running at port ${process.env.PORT}, you better catch it!`);
 
     //Only add data once
+
     // User.insertMany(dataUser)
+    // Product.insertMany(dataProduct)
+    // ProductStat.insertMany(dataProductStat)
 });
 
