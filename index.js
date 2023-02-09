@@ -15,8 +15,9 @@ import connectDB from "./config/database.js";
 import User from "./models/User.js"
 import Product from "./models/Product.js"
 import ProductStat from "./models/ProductStat.js"
+import Transaction from "./models/Transaction.js"
 
-import { dataUser, dataProduct,dataProductStat} from "./data/index.js"
+import { dataUser, dataProduct, dataProductStat, dataTransaction} from "./data/index.js"
 
 // CONFIGURATION
 dotenv.config({ path: "./config/.env" });
@@ -45,5 +46,7 @@ app.listen(process.env.PORT, () => {
     // User.insertMany(dataUser)
     // Product.insertMany(dataProduct)
     // ProductStat.insertMany(dataProductStat)
+    // Transaction.insertMany(dataTransaction)
+
 });
 
