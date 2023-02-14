@@ -1,5 +1,7 @@
 import mongoose from 'mongoose';
 
+console.log("🚀 ~ file: database.js:6 ~ connectDB ~ process.env.MONGO_URL", process.env.MONGO_URL)
+
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect(process.env.MONGO_URL, {
