@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import mongoose from 'mongoose';
+import mongoose, { now } from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import helmet from 'helmet'
@@ -46,7 +46,15 @@ app.listen(process.env.PORT, () => {
     //Only add data once
     // AffiliateStat.insertMany(dataAffiliateStat)
     // OverallStat.insertMany(dataOverallStat)
-    // User.insertMany(dataUser)
+// ------------------------------------------------------
+    // Loop through each user record and use save method so that it triggers the password hashing process
+    // now, hashed password is saved for each user
+
+    //  dataUser.forEach(user => {
+    //      let currentUser = new User(user)
+    //      currentUser.save()
+    //  })
+// -------------------------------------------------------
     // Product.insertMany(dataProduct)
     // ProductStat.insertMany(dataProductStat)
     // Transaction.insertMany(dataTransaction)
