@@ -17324,6 +17324,7 @@ export const dataAffiliateStat = [
         "63701d74f032398675000152",
       ],
       role: "superadmin",
+      password: "qwerty12345"
     },
     {
       _id: "63701cc1f03239c72c000180",
@@ -17362,6 +17363,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b000087",
       ],
       role: "admin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239c72c000182",
@@ -17386,6 +17388,7 @@ export const dataAffiliateStat = [
         "63701d74f03239bef0000159",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239c72c000183",
@@ -17403,6 +17406,7 @@ export const dataAffiliateStat = [
         "63701d74f032394441000314",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239c72c000184",
@@ -17450,6 +17454,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e0001ad",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239c72c000186",
@@ -17488,6 +17493,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d591000349",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239c72c000188",
@@ -17508,6 +17514,7 @@ export const dataAffiliateStat = [
         "63701d74f03239cdc5000032",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239c72c000189",
@@ -17528,6 +17535,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b913000040",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239c72c00018a",
@@ -17565,6 +17573,7 @@ export const dataAffiliateStat = [
         "63701d74f03239db69000155",
       ],
       role: "admin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239c72c00018c",
@@ -17586,6 +17595,7 @@ export const dataAffiliateStat = [
         "63701d74f03239569400001b",
       ],
       role: "admin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239c72c00018d",
@@ -17620,6 +17630,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d591000330",
       ],
       role: "admin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239867500011c",
@@ -17643,6 +17654,7 @@ export const dataAffiliateStat = [
         "63701d74f03239867500014c",
       ],
       role: "admin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239867500011d",
@@ -17669,6 +17681,7 @@ export const dataAffiliateStat = [
       phoneNumber: "1904503194",
       transactions: ["63701d74f032395b33000132"],
       role: "admin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239867500011f",
@@ -17688,6 +17701,7 @@ export const dataAffiliateStat = [
         "63701d74f032394441000318",
       ],
       role: "admin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032398675000120",
@@ -17706,6 +17720,7 @@ export const dataAffiliateStat = [
         "63701d74f03239867500013e",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032398675000121",
@@ -17729,6 +17744,7 @@ export const dataAffiliateStat = [
         "63701d74f03239bef0000153",
       ],
       role: "admin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032398675000122",
@@ -17760,6 +17776,7 @@ export const dataAffiliateStat = [
         "63701d74f032394c4900014f",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032398675000124",
@@ -17807,6 +17824,7 @@ export const dataAffiliateStat = [
         "63701d74f032395694000045",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032398675000126",
@@ -17864,6 +17882,7 @@ export const dataAffiliateStat = [
       phoneNumber: "7832710010",
       transactions: ["63701d74f03239b91300002c"],
       role: "admin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032398675000129",
@@ -17885,6 +17904,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a3400034b",
       ],
       role: "admin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b7f7000006",
@@ -17898,6 +17918,7 @@ export const dataAffiliateStat = [
       phoneNumber: "5849922301",
       transactions: ["63701d74f03239b91300001a"],
       role: "admin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b7f7000007",
@@ -17918,6 +17939,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f00003f",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b7f7000008",
@@ -17940,6 +17962,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f7000031",
       ],
       role: "admin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b7f7000009",
@@ -17959,6 +17982,7 @@ export const dataAffiliateStat = [
         "63701d74f03239bef0000131",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b7f700000a",
@@ -18059,6 +18083,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c0001a1",
       ],
       role: "superadmin",
+      password: "password",
     },
     {
       _id: "63701cc1f03239b7f700000f",
@@ -18077,6 +18102,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d591000334",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b7f7000010",
@@ -18228,6 +18254,7 @@ export const dataAffiliateStat = [
       phoneNumber: "9558909811",
       transactions: ["63701d74f03239444100030c", "63701d74f03239569400002b"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f0323944410002e0",
@@ -18358,6 +18385,7 @@ export const dataAffiliateStat = [
         "63701d74f032394441000303",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f0323944410002e6",
@@ -18380,6 +18408,7 @@ export const dataAffiliateStat = [
         "63701d74f03239867500013e",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f0323944410002e7",
@@ -18451,6 +18480,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d591000344",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f0323944410002eb",
@@ -18475,6 +18505,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e000024",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d81e000006",
@@ -18497,6 +18528,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e000025",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d81e000007",
@@ -18510,6 +18542,7 @@ export const dataAffiliateStat = [
       phoneNumber: "6543510407",
       transactions: ["63701d74f032396b8e00001f", "63701d74f032396b8e000033"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d81e000008",
@@ -18641,6 +18674,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d59100032e",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d81e00000f",
@@ -18697,6 +18731,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d59100034a",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d81e000012",
@@ -18750,6 +18785,7 @@ export const dataAffiliateStat = [
         "63701d74f032398675000133",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032390a34000318",
@@ -18797,6 +18833,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f000032",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032390a3400031b",
@@ -18841,6 +18878,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f7000027",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032390a3400031e",
@@ -19093,6 +19131,7 @@ export const dataAffiliateStat = [
       phoneNumber: "6898002758",
       transactions: ["63701d74f03239c72c0001ba", "63701d74f032395694000037"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032395b33000120",
@@ -19139,6 +19178,7 @@ export const dataAffiliateStat = [
         "63701d74f032398675000154",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032395b33000122",
@@ -19246,6 +19286,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c0001b4",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032395b33000128",
@@ -19325,6 +19366,7 @@ export const dataAffiliateStat = [
         "63701d74f03239bef0000140",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d59100031a",
@@ -19346,6 +19388,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a34000333",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d59100031b",
@@ -19365,6 +19408,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f00001c",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d59100031c",
@@ -19403,6 +19447,7 @@ export const dataAffiliateStat = [
         "63701d74f032394c49000141",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d59100031e",
@@ -19501,6 +19546,7 @@ export const dataAffiliateStat = [
       phoneNumber: "5983301528",
       transactions: ["63701d74f032398675000133"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d591000323",
@@ -19531,6 +19577,7 @@ export const dataAffiliateStat = [
       phoneNumber: "1704930868",
       transactions: ["63701d74f03239528f00001e"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d591000325",
@@ -19583,6 +19630,7 @@ export const dataAffiliateStat = [
       phoneNumber: "8018242131",
       transactions: ["63701d74f03239d40b000088"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032395694000007",
@@ -19620,6 +19668,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b00007c",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032395694000009",
@@ -19641,6 +19690,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b913000022",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239569400000a",
@@ -19654,6 +19704,7 @@ export const dataAffiliateStat = [
       phoneNumber: "8256109065",
       transactions: ["63701d74f03239c72c000198", "63701d74f03239f09e0001ad"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239569400000b",
@@ -19735,6 +19786,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a3400032d",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239569400000f",
@@ -19802,6 +19854,7 @@ export const dataAffiliateStat = [
         "63701d74f03239444100030e",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032395694000012",
@@ -19845,6 +19898,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f7000040",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032395694000014",
@@ -19866,6 +19920,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e000021",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032396b8e000006",
@@ -19924,6 +19979,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e00001e",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032396b8e000009",
@@ -19943,6 +19999,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c00000130",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032396b8e00000a",
@@ -19966,6 +20023,7 @@ export const dataAffiliateStat = [
         "63701d74f03239444100030c",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032396b8e00000b",
@@ -19985,6 +20043,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f000028",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032396b8e00000c",
@@ -20025,6 +20084,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a3400034c",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032396b8e00000e",
@@ -20071,6 +20131,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e00002c",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032396b8e000010",
@@ -20111,6 +20172,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e000198",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032396b8e000012",
@@ -20131,6 +20193,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e00001b",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032396b8e000013",
@@ -20210,6 +20273,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a34000337",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239bef000011d",
@@ -20366,6 +20430,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b3300014b",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239bef0000124",
@@ -20475,6 +20540,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b3300012f",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032394c4900011b",
@@ -20624,6 +20690,7 @@ export const dataAffiliateStat = [
         "63701d74f0323944410002fe",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032394c49000123",
@@ -20647,6 +20714,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d591000331",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032394c49000124",
@@ -20743,6 +20811,7 @@ export const dataAffiliateStat = [
         "63701d74f03239cdc500002d",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239528f000006",
@@ -20787,6 +20856,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e0001a4",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239528f000008",
@@ -20829,6 +20899,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b91300003d",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239528f00000a",
@@ -20872,6 +20943,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b000063",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239528f00000d",
@@ -20906,6 +20978,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e000044",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239528f00000f",
@@ -20947,6 +21020,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d591000335",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239528f000011",
@@ -21123,6 +21197,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e000032",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239f09e000184",
@@ -21162,6 +21237,7 @@ export const dataAffiliateStat = [
         "63701d74f032395694000043",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239f09e000186",
@@ -21254,6 +21330,7 @@ export const dataAffiliateStat = [
       phoneNumber: "7229851270",
       transactions: ["63701d74f032394c49000131", "63701d74f032394441000301"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239f09e00018b",
@@ -21333,6 +21410,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c000199",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239db6900011c",
@@ -21372,6 +21450,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e000041",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239db6900011e",
@@ -21520,6 +21599,7 @@ export const dataAffiliateStat = [
       phoneNumber: "7328227068",
       transactions: ["63701d74f0323986f3000144", "63701d74f03239f09e0001ad"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239db69000126",
@@ -21538,6 +21618,7 @@ export const dataAffiliateStat = [
         "63701d74f03239569400001c",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239db69000127",
@@ -21622,6 +21703,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c00000134",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b913000007",
@@ -21652,6 +21734,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f000024",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b913000009",
@@ -21665,6 +21748,7 @@ export const dataAffiliateStat = [
       phoneNumber: "6994420029",
       transactions: ["63701d74f032398675000132"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b91300000a",
@@ -21688,6 +21772,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d59100032c",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b91300000b",
@@ -21710,6 +21795,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e000192",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b91300000c",
@@ -21730,6 +21816,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b3300014f",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b91300000d",
@@ -21788,6 +21875,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f700003b",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239b913000010",
@@ -21888,6 +21976,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d591000333",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239cdc5000006",
@@ -21905,6 +21994,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f00003b",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239cdc5000007",
@@ -22006,6 +22096,7 @@ export const dataAffiliateStat = [
         "63701d74f03239db6900013a",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239cdc500000d",
@@ -22042,6 +22133,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b91300002e",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239cdc500000f",
@@ -22079,6 +22171,7 @@ export const dataAffiliateStat = [
         "63701d74f03239cdc5000035",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239cdc5000011",
@@ -22190,6 +22283,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b3300014b",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032399c0000011d",
@@ -22214,6 +22308,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c0001b3",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032399c0000011e",
@@ -22257,6 +22352,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f000037",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032399c00000120",
@@ -22290,6 +22386,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f00003e",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032399c00000122",
@@ -22311,6 +22408,7 @@ export const dataAffiliateStat = [
         "63701d74f032395694000041",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032399c00000123",
@@ -22422,6 +22520,7 @@ export const dataAffiliateStat = [
       phoneNumber: "6601817739",
       transactions: ["63701d74f0323986f300014d"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f032399c00000129",
@@ -22435,6 +22534,7 @@ export const dataAffiliateStat = [
       phoneNumber: "7542221334",
       transactions: ["63701d74f032394c49000151", "63701d74f03239d40b000080"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f0323986f300011b",
@@ -22530,6 +22630,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e000044",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f0323986f3000120",
@@ -22552,6 +22653,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e000032",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f0323986f3000121",
@@ -22706,6 +22808,7 @@ export const dataAffiliateStat = [
       phoneNumber: "4544363972",
       transactions: ["63701d74f03239bef000015b", "63701d74f03239b91300002c"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f0323986f3000129",
@@ -22723,6 +22826,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c00019b",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d40b000038",
@@ -22788,6 +22892,7 @@ export const dataAffiliateStat = [
       phoneNumber: "6824178344",
       transactions: ["63701d74f03239d81e000043", "63701d74f03239f09e0001bf"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d40b00003c",
@@ -22821,6 +22926,7 @@ export const dataAffiliateStat = [
         "63701d74f032394c49000130",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d40b00003e",
@@ -22842,6 +22948,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e0001a4",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d40b00003f",
@@ -22917,6 +23024,7 @@ export const dataAffiliateStat = [
       phoneNumber: "8768925153",
       transactions: ["63701d74f032395b33000131", "63701d74f03239b913000030"],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d40b000044",
@@ -22961,6 +23069,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c0001b7",
       ],
       role: "superadmin",
+      password: "qwerty12345",
     },
     {
       _id: "63701cc1f03239d40b000046",
