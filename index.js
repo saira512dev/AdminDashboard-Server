@@ -47,8 +47,7 @@ app.listen(process.env.PORT, () => {
     // AffiliateStat.insertMany(dataAffiliateStat)
     // OverallStat.insertMany(dataOverallStat)
 // ------------------------------------------------------
-    // Loop through each user record and use save method so that it triggers the password hashing process
-    // now, hashed password is saved for each user
+    // Loop through each user record and use save method so that it triggers the password hashing process. Now, hashed password is saved for each user
 
     //  dataUser.forEach(user => {
     //      let currentUser = new User(user)
