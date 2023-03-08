@@ -1,8 +1,8 @@
-const passport = require("passport");
-const validator = require("validator");
-const User = require("../models/User");
+import passport from "passport";
+import validator from "validator";
+import User from "../models/User";
 
-exports.postLogin = (req, res, next) => {
+export const postLogin = (req, res, next) => {
   const validationErrors = [];
   if (!validator.isEmail(req.body.email))
     validationErrors.push({ msg: "Please enter a valid email address." });
@@ -35,7 +35,7 @@ exports.postLogin = (req, res, next) => {
   })(req, res, next);
 };
 
-exports.logout = (req, res) => {
+export const logout = (req, res) => {
   console.log(req.user)
   req.logout(() => {
     console.log("User has logged out.");
@@ -49,7 +49,7 @@ exports.logout = (req, res) => {
 };
 
 
-exports.test = (req, res) => {
+export const test = (req, res) => {
   res.json("CONNECTED")
   return;
 };
