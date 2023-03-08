@@ -1,4 +1,4 @@
-module.exports = {
+export default middleware = {
     ensureAuth: function (req, res, next) {
       if (req.isAuthenticated()) {
         return next()
