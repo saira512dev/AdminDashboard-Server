@@ -1,6 +1,6 @@
 import passport from "passport";
 import validator from "validator";
-import User from "../models/User";
+import User from "../models/User.js";
 
 export const postLogin = (req, res, next) => {
   const validationErrors = [];

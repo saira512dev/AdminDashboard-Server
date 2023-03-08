@@ -1,4 +1,4 @@
-export default middleware = {
+export const auth  = {
     ensureAuth: function (req, res, next) {
       if (req.isAuthenticated()) {
         return next()
