@@ -1,6 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import mongoose, { now } from 'mongoose';
+import mongoose from 'mongoose';
+import passport from "passport";
 import cors from 'cors';
 import dotenv from 'dotenv';
 import helmet from 'helmet'
@@ -10,6 +11,10 @@ import generalRoutes from "./routes/general.js";
 import salesRoutes from "./routes/sales.js";
 import managementRoutes from "./routes/management.js";
 import connectDB from "./config/database.js";
+import cookieParser from 'cookie-parser';
+import session from "express-session";
+import MongoStore from 'connect-mongo';
+// const MongoStore =  connectMongo(session);
 
 //data imports
 import User from "./models/User.js"
@@ -30,9 +35,45 @@ app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin"}))
 app.use(morgan("common"))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
-app.use(cors())
+// app.use(cors())
+
+
+//Passport config
+import passportFunction from './config/passport.js';
+// console.log("🚀 ~ file: index.js:43 ~ passportFunction:", passportFunction)
+
+passportFunction(passport)
+// console.log("🚀 ~ file: index.js:43 ~ a:")
+
+
+//Allow requests from frontend
+app.use(
+    cors({
+      origin: "http://localhost:3000",
+      credentials: true,
+    })
+  );
 
 connectDB();
+
+app.use(cookieParser("keyboard cat"))
+
+// Sessions
+app.use(
+    session({
+      secret: "keyboard cat",
+      resave: true,
+      saveUninitialized: true,
+      proxy: true,
+      store: new MongoStore({ mongooseConnection: mongoose.connection,
+        mongoUrl: process.env.MONGO_URL 
+      }),
+    })
+  );
+
+// Passport middleware
+app.use(passport.initialize());
+app.use(passport.session());
 
 // ROUTES
 app.use("/client", clientRoutes)
