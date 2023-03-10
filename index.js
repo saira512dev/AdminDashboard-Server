@@ -49,7 +49,7 @@ passportFunction(passport)
 //Allow requests from frontend
 app.use(
     cors({
-      origin: "http://localhost:3000",
+      origin: process.env.FRONT_END,
       credentials: true,
     })
   );
