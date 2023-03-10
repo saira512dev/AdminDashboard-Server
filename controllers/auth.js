@@ -30,7 +30,6 @@ export const postLogin = (req, res, next) => {
       if (err) {
         return next(err);
       }
-      console.log("🚀 ~ file: auth.js:35 ~ req.logIn ~ req.user:", req.session)
       res.json(req.user);
     });
   })(req, res, next);

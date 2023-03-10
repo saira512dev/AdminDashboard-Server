@@ -21,7 +21,6 @@ export const getDashboardStats = async (req, res) => {
 
         // Recent Transactions
         const transactions = await Transaction.find().limit(50).sort({ createdAt: -1})
-        console.log("🚀 ~ file: general.js:23 ~ getDashboardStats ~ transactions", transactions)
 
         //Overall Stats
         const overallStat = await OverallStat.find({year: currentYear});
