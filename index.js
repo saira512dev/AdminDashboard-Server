@@ -49,7 +49,7 @@ passportFunction(passport)
 //Allow requests from frontend
 app.use(
     cors({
-      origin: process.env.FRONT_END,
+      origin: process.env.FRONT_END_LOCAL,
       credentials: true,
     })
   );
@@ -62,11 +62,13 @@ app.use(cookieParser("keyboard cat"))
 app.use(
     session({
       secret: "keyboard cat",
-      secure: true,
-      sameSite: "none",
       resave: true,
       saveUninitialized: true,
       proxy: true,
+      cookie: {
+        sameSite: 'none',
+        secure: true
+      },
       store: new MongoStore({ mongooseConnection: mongoose.connection,
         mongoUrl: process.env.MONGO_URL 
       }),
