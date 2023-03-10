@@ -30,6 +30,7 @@ export const postLogin = (req, res, next) => {
       if (err) {
         return next(err);
       }
+      console.log("🚀 ~ file: auth.js:35 ~ req.logIn ~ req.user:", req.session)
       res.json(req.user);
     });
   })(req, res, next);
@@ -37,15 +38,16 @@ export const postLogin = (req, res, next) => {
 
 export const logout = (req, res) => {
   console.log(req.user)
-  req.logout(() => {
-    console.log("User has logged out.");
-    res.send("logged out")
-  });
   req.session.destroy((err) => {
     if (err)
       console.log("Error : Failed to destroy the session during logout.", err);
     req.user = null;
   });
+  req.logout(() => {
+    console.log("User has logged out.");
+    res.clearCookie("connect.sid", { path: "/" });
+    res.send("logged out");
+  })
 };
 
 
