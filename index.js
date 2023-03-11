@@ -66,8 +66,8 @@ app.use(
       saveUninitialized: true,
       proxy: true,
       cookie: {
-        sameSite: 'none',
-        secure: true
+        sameSite: process.env.ENV == "production" ? 'none' : 'lax',
+        secure: process.env.ENV == "production" ? true : ""
       },
       store: new MongoStore({ mongooseConnection: mongoose.connection,
         mongoUrl: process.env.MONGO_URL 
